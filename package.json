@@ -5,11 +5,13 @@
 	"main": "src/index.js",
 	"scripts": {
 		"start": "NODE_ENV=developement webpack-dev-server --open --history-api-fallback",
-		"build": "NODE_ENV=production webpack --config webpack.config.js --progress"
+		"build": "NODE_ENV=production webpack --config webpack.config.js --progress",
+		"build:test": "webpack -p"
 	},
 	"author": "Priyanshu Jain",
 	"license": "MIT",
 	"dependencies": {
+		"babel-polyfill": "^6.26.0",
 		"react": "^15.6.1",
 		"react-dom": "^15.6.1",
 		"react-quill": "^1.1.0",
@@ -21,7 +23,6 @@
 		"babel-loader": "^7.1.2",
 		"babel-plugin-add-module-exports": "^0.2.1",
 		"babel-plugin-dev-expression": "^0.2.1",
-		"babel-polyfill": "^6.26.0",
 		"babel-preset-env": "^1.6.0",
 		"babel-preset-react": "^6.24.1",
 		"babel-preset-stage-2": "^6.24.1",
