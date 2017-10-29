@@ -2,6 +2,6 @@ import 'babel-polyfill'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Root from './containers/Root'
-import './sass/base.scss'
+import './css/base.css'
 
 ReactDOM.render(<Root />, document.getElementById('app'))
