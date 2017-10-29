@@ -1,6 +1,7 @@
 #app{
   background: rgb(225, 247, 252);
   min-height: 100vh;
+  font-family: Source Sans Pro;
 }
 
 body{
@@ -10,26 +11,19 @@ body{
 img{
   margin: 40px;
 }
+
 h1{
-  font-size: 36px;
-  font-weight: 600;
-  font-style: italic;
-  font-family: Source Sans Pro;
-  text-align: center;
-  margin: 0;
-  padding: 40px;
+  font-size: 36px !important;
 }
-h2{
-  text-align: center;
+h2 {
+  font-size: 30px !important;
 }
+
 .input-field {
   width: 100%;
   min-width: 531px;
   height: 100vh;
-  font-size: 14px;
-  background-color: #fff;
-  background: #f3f1f2;
-  font-family: sans-serif;
+  font-family: Source Sans Pro;
 }
 .quill {
   height: 100%;
@@ -43,7 +37,7 @@ h2{
 /* Snow Theme */
 .ql-snow.ql-toolbar {
   display: block;
-  background: #eaecec;
+  background: #8ebdb2;
   border-top-left-radius: 0.5em;
   border-top-right-radius: 0.5em;
 }
@@ -54,8 +48,9 @@ h2{
   border-radius: 0.5em;
 }
 .ql-editor {
-  min-height: 18em;
+  min-height: 100vh;
+  background: rgb(202, 245, 255);
 }
 p, li{
-  font-size: 20px;
+  font-size: 24px !important;
 }
