@@ -1,18 +1,24 @@
-#app{
+#app {
   background: rgb(225, 247, 252);
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+  /* overflow: hidden; */
   font-family: Source Sans Pro;
 }
 
-body{
+.app-container {
+  height: 100%;
+}
+
+body {
   margin: 0;
 }
 
-img{
+img {
   margin: 40px;
 }
 
-h1{
+h1 {
   font-size: 36px !important;
 }
 h2 {
@@ -28,18 +34,18 @@ h2 {
 .quill {
   height: 100%;
 }
+
 .ql-container {
-  border-bottom-left-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
+  border-radius: 0;
   background: #fefcfc;
+  height: calc(100% - 42px);
 }
 
 /* Snow Theme */
 .ql-snow.ql-toolbar {
   display: block;
-  background: #8ebdb2;
-  border-top-left-radius: 0.5em;
-  border-top-right-radius: 0.5em;
+  background: #64efce;
+  border-radius: 0;
 }
 
 /* Bubble Theme */
@@ -48,9 +54,11 @@ h2 {
   border-radius: 0.5em;
 }
 .ql-editor {
-  min-height: 100vh;
-  background: rgb(202, 245, 255);
+  /* min-height: 100vh; */
+  background: #fff;
 }
-p, li{
+p,
+li {
   font-size: 24px !important;
 }
+
