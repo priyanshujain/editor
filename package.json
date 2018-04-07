@@ -1,6 +1,6 @@
 {
 	"name": "react-setup",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A simple smart setup for building a react app",
 	"main": "src/index.js",
 	"scripts": {
